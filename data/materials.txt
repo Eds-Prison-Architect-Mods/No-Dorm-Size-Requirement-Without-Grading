@@ -2,7 +2,6 @@
 BEGIN Room
     Name                 Dormitory
     Properties           Housing
-    BEGIN Requirement Type MinimumSize  x 1  y 1  END
     BEGIN Requirement Type Object  Id Bed Alt BunkBed END
     BEGIN LikelyObject	Id		JailDoor		END
     BEGIN LikelyObject  Id      Bookshelf       END
